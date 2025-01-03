@@ -12,14 +12,14 @@ const loadTexture = (path) => {
 }
 
 const textures = {
-    dirt: loadTexture('public/textures/dirt.png'),
-    grass: loadTexture('public/textures/grass_top.png'),
-    grassSide: loadTexture('public/textures/grass_side.png'),
-    stone: loadTexture('public/textures/stone.png'),
-    coalOre: loadTexture('public/textures/coal_ore.png'),
-    ironOre: loadTexture('public/textures/iron_ore.png'),
-    goldOre: loadTexture('public/textures/gold_ore.png'),
-    diamondOre: loadTexture('public/textures/diamond_ore.png')
+    dirt: loadTexture('/textures/dirt.png'),
+    grass: loadTexture('/textures/grass_top.png'),
+    grassSide: loadTexture('/textures/grass_side.png'),
+    stone: loadTexture('/textures/stone.png'),
+    coalOre: loadTexture('/textures/coal_ore.png'),
+    ironOre: loadTexture('/textures/iron_ore.png'),
+    goldOre: loadTexture('/textures/gold_ore.png'),
+    diamondOre: loadTexture('/textures/diamond_ore.png')
 }
 
 export const blocks = {
